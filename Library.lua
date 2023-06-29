@@ -1657,7 +1657,7 @@ do
             local Suffix = Info.Suffix or '';
 
             if Info.Compact then
-                DisplayLabel.Text = Info.Text .. ': ' .. Slider.Value .. Suffix
+                DisplayLabel.Text = ""
             elseif Info.HideMax then
                 DisplayLabel.Text = string.format('%s', Slider.Value .. Suffix)
             else
